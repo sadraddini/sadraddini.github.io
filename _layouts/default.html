@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title | default: site.title }}</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2em; max-width: 700px; }
+    a { color: #0366d6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    h1, h2, h3, h4, h5, h6 { color: #202020; }
+
+    pre {
+      background-color: #f6f8fa;
+      padding: 1em;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <article>
+    {{ content }}
+  </article>
+</body>
+</html>
