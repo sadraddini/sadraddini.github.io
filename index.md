@@ -1,4 +1,4 @@
-# Sadra Sadraddini – Postdoctoral Scholar
+# Sadra Sadraddini – Roboticist
 
 Welcome to my website! Here is some information about me and my work.
 
